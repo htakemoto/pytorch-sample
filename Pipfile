@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "jupyter-lab"
+
+[packages]
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+matplotlib = "*"
+sklearn = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.6"
